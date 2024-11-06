@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--menu superior-->
+
+    <div id="menusuperior">
+        <img id="Logo" src="./imagens/logoDNC.svg" alt="logo DNC">
+        <h1 id="Titulo-menu-superior">Tradição em projetos de arquitetura</h1>
+        <p id="Texto-menu-superior">Arquitetura residencial e comercial. </p>
+    </div>
+
+    <!--Menu informacional-->
+
+    <div id="menuinformacional">
+     <img class="img-informacional" src="./imagens/850.svg" alt="">
+     <img class="img-informacional" src="./imagens/40anos.svg" alt="">
+     <img class="img-informacional" src="./imagens/2,000,000.svg" alt="">
+    </div>
+
+    <!--seçao texto-->
+
+    <div id="secaoexplicativa">
+        <img id="imgexplicativa" src="./imagens/img.svg" alt="">
+        <h1 id="texto-explicativo">Arquitetos com História e Experiência.</h1>
+        <p id="paragrafo-explicativo">Nós realizamos desde 2002 projetos e gerenciamento de obras. <br>
+            Com mais de 800 projetos e 2.000.000 de m² construídos, tendo <br> 
+            como principal proposta transformar em realidade os sonhos de <br>
+            seus clientes, criando projetos personalizados, unindo a tradição <br>
+            e a modernidade em nossos projetos</p>.          
+    </div>
+
+    <!--seção depoimento-->
+
+    <div id="depoimento">
+        <h1 id="Titulo-depoimento"><strong>Mais de 1000 clientes ja deixaram suas opniões</strong></h1>
+        <div id="DIV-CARDS">
+            <img id="setaesquerda" onclick="RolarParaEsquerda()" src="./imagens/setaesquerda.svg" alt="">
+            <img id="Arthurfrancisco" class="card" src="./imagens/Arthurfrancisco.svg" alt="">
+            <img id="isaacJR" class="card" src="./imagens/isaacJR.svg" alt="">
+            <img id="JoaoVictor" class="card" src="./imagens/JoaoVictor.svg" alt="">
+            <img id="setadireita" onclick="RolarParaDireita()" src="./imagens/setadireita.svg" alt="">
+        </div>
+    </div>
+
+    <!--seção formulario -->
+
+    <div id="formulario">
+        <p id="titulo-formulario"> <strong>Conheça mais sobre nossos serviços:</strong></p> <br>
+        <form action="https://api.sheetmonkey.io/form/vdtkVivzfousDumHVNREQ5" method="post">
+        <input type="text" placeholder="Nome" name="Name" required> <br>
+        <input type="email" placeholder="E-mail" name="Email" required > <br>
+        <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+        <button type="submit"><strong >Fale Conosco</strong> </button>
+        </form>     
+    </div>
+
+  <script src="./IndexJS/index.js"></script>
+
+</body>
+</html>
