@@ -48,74 +48,37 @@
 #paragrafo-explicativo{
     margin-left: 45px;
     padding-bottom: 300px;
+    font-size: 20px;
 }
 
 #imgexplicativa{
     float: right;
     margin-right: 30px;
-    margin-top: 65px;
+    margin-top: 75px;
     padding-bottom: 55px;
     
 }
 
-#DIV-CARDS{
-    display: grid;
-    grid-auto-flow: column;
-}
-
-#Titulo-depoimento{
-    font-size: 28px;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.card{
-    padding-bottom: 60px;
-    margin-left: 35px;
-}
-
-#setaesquerda{
-    display: none;
-    float: left;
-    margin-top: 55px;
-    margin-left: 10px;
-}
-
-#isaacJR{
-    display: none;
-}
-
-#setadireita{
-    float: right;
-    margin-top: 35px
-}
-
-#depoimento{
-    background-color: #303030;
-    color: #FFFFFF;
-}
-
-
 #formulario{
-    background: white;
+    background: #303030;
 }
 
 #titulo-formulario{
     text-align: center;
-    padding-top: 65px;
-   font-size: 30px;
+    padding-top: 70px;
+    font-size: 30px;
+    color: white;
 }
 
 input{
  width: 450px;
  height: 65px;
  background-color: #EAECE5;
- text-align: center;
  margin: 25px;
  border: 0px;
  margin-left: 410px;
  border-radius: 10px;
+ padding-left: 20px;
 }
 
 button{
